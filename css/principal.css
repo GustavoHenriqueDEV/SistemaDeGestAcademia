@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+
+.cadastro{
+  display: none;
+}
+
+.close{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}  
+
+.btn-close{
+  border-radius: 50px;
+  border:solid 1px;
+  width: 50px;
+  background-color: rgba(236, 3, 3, 0.486);
+}
+
+.a{
+align-items: center;
+width: 50px;
+border-radius: 10px;
+color: white;
+background-color: red;
+}
+
+.cont{
+  text-transform: uppercase;
+  margin-top: 10px;
+  justify-content: center;
+  display: flex;
+}  
+
+
+.btn-cadastro :hover{
+  background-color: rgb(17, 1, 1)
+}
+
+
+.btn-cadastro{
+  height: 50px;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 20px;
+  border: solid 1px black ;
+  background-color: grey;
+  box-shadow: 0px 0px 10px #aaa;
+
+  
+}
+
+  h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #aaa;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="email"], input[type="tel"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  select {
+    height: 40px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+   /* Estilo do formulário */
+      /* ... */
+      
+      /* Estilo da tabela */
+      table {
+        margin-top:10px;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      th, td {
+        text-align: left;
+        padding: 8px;
+        border-bottom: 1px solid #ddd;
+      }
+      
+      th {
+        background-color: #4CAF50;
+        color: white;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+      
+      /* Estilo da mensagem de sucesso */
+      .success {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+      }
